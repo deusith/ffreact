@@ -1,0 +1,12 @@
+.Commands{
+    height: 40%;
+    background-color: blue;
+    position: relative;
+}
+
+.debug-panel{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}

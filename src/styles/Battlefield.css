@@ -1,0 +1,21 @@
+.Battlefield{
+    height: 60%;
+    background-color: green;
+}
+
+.enemy-field,
+.champion-field{
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.enemy-field{
+    width: 70%;
+    background-color: rgba(178, 34, 34, 0.5);
+}
+
+.champion-field{
+    width: 30%;
+    background-color: rgba(65, 105, 225, 0.5);
+}
