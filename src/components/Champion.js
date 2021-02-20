@@ -1,10 +1,11 @@
 import "../styles/Champion.css"
 
 function Champion(props){
+    const {champData} = props;
     return (
         <div className="Champion">
-        AAA!!!
-        <p>HP: {props.hp}</p>
+            <div>{champData.shortName}</div>
+            <div>{champData.hp}</div>
         </div>
     );
 }

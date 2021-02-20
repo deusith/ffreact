@@ -11,7 +11,7 @@ function Battlefield(props){
                 { enemies.map( (enemy, index) => <Enemy key={`enemy-${index}`} hp={enemy.hp} /> ) }
             </div>
             <div className="champion-field">
-                { champions.map( (champ, index) => <Champion key={`champion-${index}`} hp={champ.hp} /> ) }
+                { champions.map( (champ, index) => <Champion key={`champion-${index}`} champData={champ} /> ) }
             </div>
         </div>
     );
