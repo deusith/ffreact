@@ -53,7 +53,7 @@ class App extends React.Component {
   }
 
   enemyAttack = () => {
-    const commandKey = Math.floor(Math.random() * 3);
+    const commandKey = Math.floor( ( Math.random() * 2 ) + 1 );
     const enemyCommand = `cmd${commandKey}`;
     this.executeCommand(enemyCommand, 0, "enemy");
   }
